@@ -107,3 +107,24 @@
 		flex: 1 0 50%;
 	}
 }
+
+.site-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	padding: 0 2rem;
+	.main-navigation {
+		width: 100%;
+		display: flex;
+		justify-content: end;
+	}
+	.site-branding {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+	}
+}

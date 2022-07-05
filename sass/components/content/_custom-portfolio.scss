@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Splash&display=swap');
+
+.site-footer {
+    display: none;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Splash', cursive;
+    }
+    a {
+        text-decoration: none;
+    }
+}
