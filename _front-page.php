@@ -9,6 +9,16 @@
 
 <?php get_header(); ?>
 
-<?php get_template_part('template-parts/particles-effect') ?>
+<div class="fp-container">
+    <div class="fp-wrapper-top">
+        <div class="fp-text-container">
+            
+        </div>
+    </div>
+
+
+</div>
+
+<?php get_template_part('template-parts/particles-effect'); ?>
 
 <?php get_footer(); ?>
