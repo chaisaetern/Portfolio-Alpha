@@ -4,22 +4,24 @@
 
 
 <div class="fp-nav">
+
+<?php 
+    $links = array(
+        array('name' => 'Home', 'href' => '#', 'iconClass' => 'fa-solid fa-house-user'),
+        array('name' => 'About', 'href' => '#', 'iconClass' => 'fa-solid fa-address-card'),
+        array('name' => 'Projects', 'href' => '#', 'iconClass' => 'fa-solid fa-diagram-project'),
+        array('name' => 'Contact', 'href' => '#', 'iconClass' => 'fa-solid fa-file-signature'),
+    );
+
+    for($i = 0; $i < count($links); $i++) {
+
+?>
     
-    <a href="#" id="home" class="fp-nav-link">
-        <i class="fa-solid fa-house-user"></i>
-        <span>Home</span>
-    </a>
-    <a href="#" id="about" class="fp-nav-link">
-        <i class="fa-solid fa-address-card"></i>
-        <span>About</span>
-    </a>
-    <a href="#" id="projects" class="fp-nav-link">
-        <i class="fa-solid fa-diagram-project"></i>
-        <span>Projects</span>
-    </a>
-    <a href="#" id="contact" class="fp-nav-link">
-        <i class="fa-solid fa-file-signature"></i>
-        <span>Contact</span>
-    </a>
+        <a href="<?php echo $links[$i]['href']; ?>" id="home" class="fp-nav-link">
+            <i class="<?php echo $links[$i]['iconClass']; ?>"></i>
+            <span><?php echo $links[$i]['name']; ?></span>
+        </a>
+
+    <?php } ?>
 
 </div>
