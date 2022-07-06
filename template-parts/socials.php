@@ -26,7 +26,7 @@
                     array('name' => 'Github', 'class' => 'fa-github', 
                     'link' => get_field('social_link_3')
                     ),
-                    array('name' => 'Email', 'class' => 'fa-solid fa-envelope', 
+                    array('name' => 'csaetern@alphaworks.tech', 'class' => 'fa-solid fa-envelope', 
                     'link' => get_field('social_link_4')
                     ),
                 );

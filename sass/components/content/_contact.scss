@@ -26,14 +26,15 @@
         }
         .wpcf7-submit {
             color: $white;
-            background: transparent;
-            border: 1px solid $white;
+            border: none !important;
             border-radius: 2px;
             padding: 0.75rem 2rem;
             transition: 0.25s;
+            background: $charcoal;
             &:hover {
                 cursor: pointer;
-                background: $blue;
+                background: transparent;
+                color: $blue;
             }
         }
         .wpcf7-spinner {

@@ -17,17 +17,18 @@ body {
 }
 
 // TOP PAGE BG
-.top-bg-1, .top-bg-2 {
+.top-bg-1, .top-bg-2, 
+.about-bg-1, .about-bg-2 {
     position: absolute;
     mix-blend-mode: lighten;
     width: 60rem;
     filter: brightness(0.5);
 }
-.top-bg-1 {
+.top-bg-1, .about-bg-1 {
     top: 0;
     left: 0;
 }
-.top-bg-2 {
+.top-bg-2, .about-bg-2 {
     bottom: 0;
     right: 0;
     transform: rotateY(180deg);

@@ -9,8 +9,8 @@
 
 <?php get_header(); ?>
 
-<img src="<?php the_field('top_page_background_1'); ?>" alt="" class="top-bg-1">
-<img src="<?php the_field('top_page_background_2'); ?>" alt="" class="top-bg-2">
+<!-- Custom Top Page BG -->
+<?php get_template_part('template-parts/top-page-bg'); ?>
 
 <div class="fp-container">
 
@@ -23,7 +23,7 @@
             <h2>Hello.</h2> {
             <h3>I'm Chai.</h3>
             <h4>Pronouns: <span>He/Him/His</span></h4>
-            <h5>I am a junior Front-End <br> WordPress developer.</h5>
+            <h5>I am a junior Front-End WordPress developer.</h5>
             <h6>I am also a Gamer.</h6>
             };
         </div>
