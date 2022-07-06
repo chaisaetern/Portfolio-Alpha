@@ -17,7 +17,7 @@
     <div class="fp-wrapper-top">
 
         <div class="fp-text-container">
-            <h2>Hello. </h2> {
+            <h2>Hello.</h2> {
             <h3>I'm Chai.</h3>
             <h4>Pronouns: <span>He/Him/His</span></h4>
             <h5>I am a junior Front-End <br> WordPress developer.</h5>
@@ -40,14 +40,22 @@
                 <h4>I've also dabbled in a bit of MERN stack (seems like ages ago).</h4>
                 <h4>My journey as a coder has been a very grateful experience.</h4>
                 <h4>Other hobbies include: Gaming, Fishing, Coding, Thinking, Dreaming.</h4>
+                <h5>Thanks for dropping by!</h5>
                 <p>Here is also a list of self-evaluation:</p>
             </div>
             <?php get_template_part('template-parts/skill-card'); ?>
         </div>
     </div>
 
+    <div class="projects-container">
+        <h2>Projects</h2>
+    </div>
 
 
+    <div class="contact-container">
+        <h2>Contact Me</h2>
+        <?php echo do_shortcode('[contact-form-7 id="531" title="Contact form 1"]'); ?>
+    </div>
 
 </div>
 
