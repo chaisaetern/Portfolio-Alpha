@@ -55,23 +55,23 @@
 
             <a href="#" class="project">
                 <img src="<?php the_field('project_bg'); ?>" alt="" class="project-bg">
-                <h2 calass="project-title">Project A</h2>
+                <h3 class="project-title">Project A</h3>
             </a>
             <a href="#" class="project">
                 <img src="<?php the_field('project_bg'); ?>" alt="" class="project-bg">
-                <h2 class="project-title">Project A</h2>
+                <h3 class="project-title">Project A</h3>
             </a>
             <a href="#" class="project">
                 <img src="<?php the_field('project_bg'); ?>" alt="" class="project-bg">
-                <h2 class="project-title">Project A</h2>
+                <h3 class="project-title">Project A</h3>
             </a>
             <a href="#" class="project">
                 <img src="<?php the_field('project_bg'); ?>" alt="" class="project-bg">
-                <h2 class="project-title">Project A</h2>
+                <h3 class="project-title">Project A</h3>
             </a>
             <a href="#" class="project">
                 <img src="<?php the_field('project_bg'); ?>" alt="" class="project-bg">
-                <h2 class="project-title">Project A</h2>
+                <h3 class="project-title">Project A</h3>
             </a>
 
         </div>

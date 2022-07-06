@@ -154,7 +154,6 @@ body {
                 rgba(4,5,6,0.95), rgba(4,5,6,0.05), rgba(4,5,6,0.95)
                 );
                 &:hover {
-                    // border: 1px solid red;
                     background: transparentize($color: $blue, $amount: 0.95);
                     &::before {
                         content: '';
@@ -164,7 +163,6 @@ body {
                         top: -0.25rem;
                         left: -0.25rem;
                         border: 1px solid $blue;
-                        // transition-delay: 0.25s;
                     }
                     &::after {
                         content: '';
@@ -174,7 +172,10 @@ body {
                         bottom: -0.25rem;
                         right: -0.25rem;
                         border: 1px solid $blue;
-                        // transition-delay: 0.25s;
+                    }
+                    .project-title {
+                        background: rgba(4,5,6,1);
+                        color: $white;
                     }
                 }
                 &::before {
@@ -184,7 +185,6 @@ body {
                     position: absolute;
                     top: -0.25rem;
                     left: -0.25rem;
-                    // border: 2px solid $blue;
                     transition: 0.25s;
                 }
                 &::after {
@@ -194,7 +194,6 @@ body {
                     position: absolute;
                     bottom: -0.25rem;
                     right: -0.25rem;
-                    // border: 2px solid $blue;
                     transition: 0.25s;
                 }
                 .project-bg {
@@ -206,6 +205,15 @@ body {
                 }
                 .project-title {
                     text-shadow: 1px -1px 2px #000;
+                    text-align: center;
+                    border-left: 3px solid red;
+                    border-top-right-radius: 2px;
+                    border-bottom-right-radius: 2px;
+                    box-shadow: 0 0 5px #000;
+                    padding: 0.2rem 0.5rem;
+                    position: absolute;
+                        bottom: 1rem;
+                        left: 1rem;
                 }
             }
         }
