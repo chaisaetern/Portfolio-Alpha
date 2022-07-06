@@ -109,7 +109,7 @@
 }
 
 .site-header {
-	display: flex;
+	display: none !important;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;

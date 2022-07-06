@@ -21,6 +21,7 @@
     position: relative;
     color: #fff;
     margin: 0.25rem;
+    transition: 0.25s;
     &::before {
       content: '';
       width: var(--width);
@@ -28,6 +29,9 @@
       background: #26354F;
       position: absolute;
       left: 0;
+    }
+    &:hover {
+      transform: scale(1.2);
     }
     .skill-text {
       display: flex;

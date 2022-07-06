@@ -16,8 +16,6 @@
 
     <div class="fp-wrapper-top">
 
-        
-
         <div class="fp-text-container">
             <h2>Hello. </h2> {
             <h3>I'm Chai.</h3>
@@ -28,6 +26,7 @@
         </div>
         <div class="fp-img-container">
             <img src="<?php the_field('portfolio_image'); ?>" alt="" class="fp-img">
+            <?php get_template_part('template-parts/socials'); ?>
         </div>
 
     </div>
@@ -46,6 +45,8 @@
             <?php get_template_part('template-parts/skill-card'); ?>
         </div>
     </div>
+
+
 
 
 </div>
