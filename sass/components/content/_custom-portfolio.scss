@@ -1,26 +1,41 @@
 
-.site-footer {
-    display: none;
-}
 
 body {
     width: 100%;
     height: 100%;
-    background: #000;
+    background: $background;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 1px;
-    h1, h2, h3, h4, h5, h6 {
+    color: $white;
+    h1, h2, h3, h4, h5, h6, p {
         margin: 0;
     }
     a {
-        color: #fff !important;
+        color: $white !important;
         text-decoration: none;
     }
 }
 
-// 
-// 
+// TOP PAGE BG
+.top-bg-1, .top-bg-2 {
+    position: absolute;
+    mix-blend-mode: lighten;
+    width: 60rem;
+    filter: brightness(0.5);
+}
+.top-bg-1 {
+    top: 0;
+    left: 0;
+}
+.top-bg-2 {
+    bottom: 0;
+    right: 0;
+    transform: rotateY(180deg);
+}
 
+
+
+// // FP CONTAINER
 .fp-container {
     height: 100%;
     width: 100%;
@@ -35,5 +50,71 @@ body {
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        // flex-wrap: wrap;
+        .fp-text-container {
+            text-align: right;
+            margin: 1rem;
+            padding: 1rem;
+            text-shadow: 0 0 3px #000;
+            line-height: 2rem;
+            & > h2, & > h4 {
+                color: $blue;
+                margin: 0.25rem 0;
+            }
+        }
+        .fp-img-container {
+            width: 20rem;
+            height: 30rem;
+            overflow: hidden;
+            position: relative;
+            margin: 1rem;
+            border-radius: 2px;
+            .fp-img {
+                width: 100%;
+                height: auto;
+                position: absolute;
+                bottom: 2rem;
+                mix-blend-mode: difference;
+            }
+        }
+    }
+
+    // FP ABOUT
+    .fp-about {
+        // height: 50vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .about-wrapper {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            width: 100%;
+            .about-me {
+                height: 100%;
+                width: 100%;
+                padding: 1rem 0;
+                // border: 1px solid red;
+                text-align: center;
+                line-height: 2rem;
+                .about-title {
+                    color: blueviolet;
+                    margin: 0.5rem 0;
+                }
+                > h4 {
+                    &:nth-child(2n+1) {
+                        color: blue;
+                    }
+                }
+                > p {
+                    color: blueviolet;
+                    margin-top: 1rem;
+                }
+            }
+        }
     }
 }
