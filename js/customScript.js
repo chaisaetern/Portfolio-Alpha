@@ -11,7 +11,7 @@ $("#about").click(function() {
 });
 $("#projects").click(function() {
     $([document.documentElement, document.body]).animate({
-        scrollTop: $(".projects-container").offset().top
+        scrollTop: $(".project-container").offset().top
     }, 1000);
 });
 $("#contact").click(function() {

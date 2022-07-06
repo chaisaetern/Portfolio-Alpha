@@ -52,7 +52,7 @@ body {
         align-items: center;
         flex-wrap: wrap;
         .fp-text-container {
-            text-align: right;
+            text-align: center;
             margin: 1rem;
             padding: 1rem;
             text-shadow: 0 0 3px #000;
@@ -80,8 +80,8 @@ body {
 
     // FP ABOUT
     .fp-about {
-        height: 50vh;
         width: 100%;
+        height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -120,23 +120,93 @@ body {
         }
     }
 
-    .projects-container {
+    .project-container {
         width: 100%;
-        height: 80vh;
+        height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        .project {
+        margin-top: 10rem;
+        padding: 2rem 0;
+        .project-header {
+            margin-bottom: 2rem;
+        }
+        .project-wrapper {
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             justify-content: center;
             align-items: center;
-            position: relative;
-            .project-bg {
-                position: absolute;
-                width: 100%;
-                height: 100%;
+            flex-wrap: wrap;
+            width: 100%;
+            height: 100%;
+            .project {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                width: 350px;
+                height: 350px;
+                overflow: hidden;
+                transition: 0.25s;
+                background: linear-gradient(30deg,
+                rgba(4,5,6,0.95), rgba(4,5,6,0.05), rgba(4,5,6,0.95)
+                );
+                &:hover {
+                    // border: 1px solid red;
+                    background: transparentize($color: $blue, $amount: 0.95);
+                    &::before {
+                        content: '';
+                        width: 100%;
+                        height: 100%;
+                        position: absolute;
+                        top: -0.25rem;
+                        left: -0.25rem;
+                        border: 1px solid $blue;
+                        // transition-delay: 0.25s;
+                    }
+                    &::after {
+                        content: '';
+                        width: 100%;
+                        height: 100%;
+                        position: absolute;
+                        bottom: -0.25rem;
+                        right: -0.25rem;
+                        border: 1px solid $blue;
+                        // transition-delay: 0.25s;
+                    }
+                }
+                &::before {
+                    content: '';
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    top: -0.25rem;
+                    left: -0.25rem;
+                    // border: 2px solid $blue;
+                    transition: 0.25s;
+                }
+                &::after {
+                    content: '';
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    bottom: -0.25rem;
+                    right: -0.25rem;
+                    // border: 2px solid $blue;
+                    transition: 0.25s;
+                }
+                .project-bg {
+                    position: absolute;
+                    width: 100%;
+                    height: auto;
+                    z-index: -1;
+                    mix-blend-mode: lighten;
+                }
+                .project-title {
+                    text-shadow: 1px -1px 2px #000;
+                }
             }
         }
     }
@@ -149,7 +219,7 @@ body {
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 80vh;
+        height: 100vh;
         > h2 {
             color: $blue;
         }

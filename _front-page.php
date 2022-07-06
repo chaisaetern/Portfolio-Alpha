@@ -43,18 +43,37 @@
                 <h4>My journey as a coder has been a very grateful experience.</h4>
                 <h4>Other hobbies include: Gaming, Fishing, Coding, Thinking, Dreaming.</h4>
                 <h5>Thanks for dropping by!</h5>
-                <p>Here is also a list of self-evaluation:</p>
+                <!-- <p>Here is a list of self-evaluation:</p> -->
             </div>
             <?php get_template_part('template-parts/skill-card'); ?>
         </div>
     </div>
 
-    <div class="projects-container">
-        <h2>Projects</h2>
-        <div class="project">
-            <img src="<?php the_field('project_bg'); ?>" alt="" class="project-bg">
-            <h2>Project A</h2>
-            
+    <div class="project-container">
+        <h2 class="project-header">Projects</h2>
+        <div class="project-wrapper">
+
+            <a href="#" class="project">
+                <img src="<?php the_field('project_bg'); ?>" alt="" class="project-bg">
+                <h2 calass="project-title">Project A</h2>
+            </a>
+            <a href="#" class="project">
+                <img src="<?php the_field('project_bg'); ?>" alt="" class="project-bg">
+                <h2 class="project-title">Project A</h2>
+            </a>
+            <a href="#" class="project">
+                <img src="<?php the_field('project_bg'); ?>" alt="" class="project-bg">
+                <h2 class="project-title">Project A</h2>
+            </a>
+            <a href="#" class="project">
+                <img src="<?php the_field('project_bg'); ?>" alt="" class="project-bg">
+                <h2 class="project-title">Project A</h2>
+            </a>
+            <a href="#" class="project">
+                <img src="<?php the_field('project_bg'); ?>" alt="" class="project-bg">
+                <h2 class="project-title">Project A</h2>
+            </a>
+
         </div>
     </div>
 
