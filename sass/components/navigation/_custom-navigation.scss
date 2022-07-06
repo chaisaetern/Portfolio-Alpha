@@ -10,6 +10,7 @@
     background: $blue;
     width: 4rem;
     border-radius: 2px;
+    z-index: 99;
     & > a {
         margin: 0.5rem 0;
         display: flex;

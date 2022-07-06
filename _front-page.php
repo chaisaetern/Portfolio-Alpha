@@ -51,6 +51,11 @@
 
     <div class="projects-container">
         <h2>Projects</h2>
+        <div class="project">
+            <img src="<?php the_field('project_bg'); ?>" alt="" class="project-bg">
+            <h2>Project A</h2>
+            
+        </div>
     </div>
 
 
