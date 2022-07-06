@@ -1,4 +1,8 @@
 
+const $id = ['#home', '#about', '#projects', '#contact'];
+const $class = ['.fp-wrapper-top', '.fp-about', '.project-container', '.contact-container'];
+
+
 $("#home").click(function() {
     $([document.documentElement, document.body]).animate({
         scrollTop: $(".fp-wrapper-top").offset().top

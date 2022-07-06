@@ -7,17 +7,17 @@
 
 <?php 
     $links = array(
-        array('name' => 'Home', 'href' => '#', 'iconClass' => 'fa-solid fa-house-user'),
-        array('name' => 'About', 'href' => '#', 'iconClass' => 'fa-solid fa-address-card'),
-        array('name' => 'Projects', 'href' => '#', 'iconClass' => 'fa-solid fa-diagram-project'),
-        array('name' => 'Contact', 'href' => '#', 'iconClass' => 'fa-solid fa-file-signature'),
+        array('name' => 'Home', 'id' => 'home', 'href' => '#', 'iconClass' => 'fa-solid fa-house-user'),
+        array('name' => 'About', 'id' => 'about', 'href' => '#', 'iconClass' => 'fa-solid fa-address-card'),
+        array('name' => 'Projects', 'id' => 'projects', 'href' => '#', 'iconClass' => 'fa-solid fa-diagram-project'),
+        array('name' => 'Contact', 'id' => 'contact', 'href' => '#', 'iconClass' => 'fa-solid fa-file-signature'),
     );
 
     for($i = 0; $i < count($links); $i++) {
 
 ?>
     
-        <a href="<?php echo $links[$i]['href']; ?>" id="home" class="fp-nav-link">
+        <a href="<?php echo $links[$i]['href']; ?>" id="<?php echo $links[$i]['id']; ?>" class="fp-nav-link">
             <i class="<?php echo $links[$i]['iconClass']; ?>"></i>
             <span><?php echo $links[$i]['name']; ?></span>
         </a>
