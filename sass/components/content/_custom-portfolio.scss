@@ -80,7 +80,7 @@ body {
 
     // FP ABOUT
     .fp-about {
-        // height: 50vh;
+        height: 50vh;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -96,8 +96,11 @@ body {
             .about-me {
                 height: 100%;
                 width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
                 padding: 1rem 0;
-                // border: 1px solid red;
                 text-align: center;
                 line-height: 2rem;
                 .about-title {
@@ -161,7 +164,7 @@ body {
                 padding: 0.75rem 2rem;
                 transition: 0.25s;
                 &:hover {
-                    cursor: pointer;
+                    // cursor: pointer;
                     background: $blue;
                 }
             }

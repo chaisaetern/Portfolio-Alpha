@@ -14,6 +14,8 @@
 
 <div class="fp-container">
 
+    <?php get_template_part('template-parts/custom-navigation'); ?>
+
     <div class="fp-wrapper-top">
 
         <div class="fp-text-container">
