@@ -23,17 +23,17 @@
             <h2 id="hi">Hi.</h2> {
             <h3>I'm Chai.</h3>
             <h4>Pronouns: <span>He/Him/His</span></h4>
-            <h5>I am a junior Front-End WordPress developer.</h5>
+            <h5>Front-End WordPress developer.</h5>
             <h6>I am also a Gamer.</h6>
             };
         </div>
+
         <div class="fp-img-container">
             <img src="<?php the_field('portfolio_image'); ?>" alt="" class="fp-img">
             <?php get_template_part('template-parts/socials'); ?>
         </div>
 
     </div>
-
 
     <!-- About Section -->
     <?php get_template_part('template-parts/about-page'); ?>

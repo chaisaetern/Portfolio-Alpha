@@ -13,22 +13,7 @@
 
         <a href="#" class="project">
             <img src="<?php the_field('project_bg'); ?>" alt="" class="project-bg">
-            <h3 class="project-title">Project A</h3>
-        </a>
-        <a href="#" class="project">
-            <img src="<?php the_field('project_bg'); ?>" alt="" class="project-bg">
-            <h3 class="project-title">Project A</h3>
-        </a>
-        <a href="#" class="project">
-            <img src="<?php the_field('project_bg'); ?>" alt="" class="project-bg">
-            <h3 class="project-title">Project A</h3>
-        </a>
-        <a href="#" class="project">
-            <img src="<?php the_field('project_bg'); ?>" alt="" class="project-bg">
-            <h3 class="project-title">Project A</h3>
-        </a>
-        <a href="#" class="project">
-            <img src="<?php the_field('project_bg'); ?>" alt="" class="project-bg">
+            <h4 class="project-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
             <h3 class="project-title">Project A</h3>
         </a>
 
