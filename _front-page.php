@@ -20,7 +20,7 @@
     <div class="fp-wrapper-top">
 
         <div class="fp-text-container">
-            <h2>Hello.</h2> {
+            <h2 id="hi">Hi.</h2> {
             <h3>I'm Chai.</h3>
             <h4>Pronouns: <span>He/Him/His</span></h4>
             <h5>I am a junior Front-End WordPress developer.</h5>

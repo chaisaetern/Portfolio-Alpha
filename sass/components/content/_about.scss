@@ -25,8 +25,10 @@
             text-align: center;
             line-height: 2rem;
             .about-title {
-                color: blueviolet;
-                margin: 0.5rem 0;
+                color: rgb(1, 255, 208);
+                margin: 1rem 0;
+                font-family: 'Rubik Moonrocks', cursive;
+                font-size: 2rem;
             }
             > h4 {
                 &:nth-child(2n+1) {
