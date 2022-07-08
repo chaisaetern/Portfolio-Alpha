@@ -27,8 +27,9 @@
             .about-title {
                 color: rgb(81, 255, 1);
                 margin: 1rem 0;
-                font-family: 'Rubik Moonrocks', cursive;
-                font-size: 2rem;
+                font-family: $headerFont;
+                font-size: 3.5rem;
+                letter-spacing: 5px;
             }
             > h4 {
                 &:nth-child(2n+1) {

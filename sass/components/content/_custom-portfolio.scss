@@ -64,7 +64,10 @@ body {
             }
             #hi {
                 color: rgb(1, 255, 208);
-                font-family: 'Rubik Moonrocks', cursive;
+                font-family: $headerFont;
+                font-size: 3rem;
+                position: relative;
+                top: -1rem;
             }
         }
         .fp-img-container {

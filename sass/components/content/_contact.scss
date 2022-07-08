@@ -8,8 +8,9 @@
     height: 100vh;
     > h2 {
         color: rgb(135, 0, 0);
-        font-family: 'Rubik Moonrocks', cursive;
-        font-size: 2rem;
+        font-family: $headerFont;
+        font-size: 3.5rem;
+        letter-spacing: 5px;
     }
     .wpcf7-form {
         max-width: 360px;

@@ -10,8 +10,9 @@
     .project-header {
         margin-bottom: 2rem;
         color: rgb(255, 157, 0);;
-        font-family: 'Rubik Moonrocks', cursive;
-        font-size: 2rem;
+        font-family: $headerFont;
+        font-size: 3.5rem;
+        letter-spacing: 5px;
     }
     .project-wrapper {
         display: flex;
