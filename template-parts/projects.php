@@ -13,8 +13,8 @@
 
         <a href="#" class="project">
             <img src="<?php the_field('project_bg'); ?>" alt="" class="project-bg">
-            <h4 class="project-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
-            <h3 class="project-title">Project A</h3>
+            <h4 class="project-desc"><?php the_field('project_desc_1') ?></h4>
+            <h3 class="project-title"><?php the_field('project_title_1') ?></h3>
         </a>
 
     </div>
