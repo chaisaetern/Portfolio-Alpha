@@ -41,7 +41,7 @@
             text-align: center;
             line-height: 2rem;
             .about-title {
-                color: $blue;
+                color: green;
                 margin: 2rem 0;
                 font-family: $headerFont;
                 font-size: 2.25rem;
@@ -50,7 +50,7 @@
             }
             & > h4 {
                 &:nth-child(2n+1) {
-                    color: $blue;
+                    color: green;
                 }
             }
             & > p {
