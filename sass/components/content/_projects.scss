@@ -39,6 +39,11 @@
                 rgba(4,5,6,0.05), 
                 rgba(4,5,6,0.95)
             );
+            &:nth-child(1) {
+                & > img {
+                    transform: scale(1);
+                }
+            }
             &:hover {
                 background: transparentize($color: $blue, $amount: 0.95);
                 &::before {
@@ -92,7 +97,7 @@
                 height: auto;
                 z-index: -1;
                 mix-blend-mode: lighten;
-                transform: scale(2);
+                transform: scale(1.75);
             }
             .project-desc {
                 position: absolute;
