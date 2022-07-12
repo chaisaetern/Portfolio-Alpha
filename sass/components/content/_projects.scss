@@ -9,10 +9,11 @@
     padding: 2rem 0;
     .project-header {
         margin-bottom: 2rem;
-        color: rgb(255, 157, 0);;
+        color: green;
         font-family: $headerFont;
-        font-size: 3.5rem;
+        font-size: 2.25rem;
         letter-spacing: 5px;
+        text-align: center;
     }
     .project-wrapper {
         display: flex;
@@ -32,8 +33,11 @@
             height: 350px;
             overflow: hidden;
             transition: 0.25s;
-            background: linear-gradient(45deg,
-            rgba(4,5,6,0.95), rgba(4,5,6,0.05), rgba(4,5,6,0.95)
+            background: linear-gradient(
+                45deg,
+                rgba(4,5,6,0.95), 
+                rgba(4,5,6,0.05), 
+                rgba(4,5,6,0.95)
             );
             &:hover {
                 background: transparentize($color: $blue, $amount: 0.95);
@@ -61,7 +65,7 @@
                 }
                 .project-title {
                     background: rgba(4,5,6,1);
-                    color: $white;
+                    // color: $white;
                 }
             }
             &::before {
@@ -88,6 +92,7 @@
                 height: auto;
                 z-index: -1;
                 mix-blend-mode: lighten;
+                transform: scale(2);
             }
             .project-desc {
                 position: absolute;
@@ -96,11 +101,19 @@
                 text-align: center;
                 text-shadow: 0 0 5px #000;
                 background: rgba(0,0,0,0.5);
+                width: 100%;
+                height: 4rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
             .project-title {
+                color: green;
+                font-family: 'Zidan', sans-serif;
                 text-shadow: 1px -1px 2px #000;
                 text-align: center;
-                border-left: 3px solid red;
+                background: rgba(0,0,0,0.5);
+                border-left: 5px solid rgb(128, 255, 0);
                 border-top-right-radius: 2px;
                 border-bottom-right-radius: 2px;
                 box-shadow: 0 0 5px #000;

@@ -1,0 +1,22 @@
+.site-footer {
+    display: none;
+}
+
+// Using custom footer
+.custom-footer {
+    height: 10vh;
+    width: 100%;
+    background: transparentize($color: #000000, $amount: 0.5);
+    position: relative;
+    bottom: -1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // border-top: 5px solid $blue;
+    border-bottom: 5px solid $blue;
+    p {
+        & > span {
+            color: $blue;
+        }
+    }
+}

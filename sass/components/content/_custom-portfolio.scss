@@ -4,8 +4,8 @@ body {
     width: 100%;
     height: 100%;
     background: $background;
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 1px;
+    font-family: 'Questrial', sans-serif;
+    letter-spacing: 2px;
     color: $white;
     h1, h2, h3, h4, h5, h6, p {
         margin: 0;
@@ -65,7 +65,7 @@ body {
             #hi {
                 color: rgb(1, 255, 208);
                 font-family: $headerFont;
-                font-size: 3rem;
+                font-size: 2rem;
                 position: relative;
                 top: -1rem;
             }

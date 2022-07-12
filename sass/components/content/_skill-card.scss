@@ -5,6 +5,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  .skill-header {
+    font-family: $headerFont;
+    margin: 1rem 0;
+    color: red;
+  }
 }
 
 .skill {
@@ -44,6 +49,11 @@
       .skill-desc {
         display: flex;
         flex-direction: row;
+      }
+      .skill-title {
+        color: $white;
+        font-family: $headerFont;
+        margin: 1rem 0;
       }
     }
     

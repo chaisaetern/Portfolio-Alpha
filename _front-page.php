@@ -23,7 +23,7 @@
             <h2 id="hi">Hi.</h2> {
             <h3>I'm Chai.</h3>
             <h4>Pronouns: <span>He/Him/His</span></h4>
-            <h5>Front-End WordPress developer.</h5>
+            <h5>Front-End WordPress Web Developer.</h5>
             <h6>I am also a Gamer.</h6>
             };
         </div>
@@ -43,8 +43,11 @@
     
     <!-- Contact Form -->
     <?php get_template_part('template-parts/contact-page'); ?>
-
+    
+    
+    <?php get_template_part('template-parts/custom-footer'); ?>
 </div>
+
 
 <?php get_template_part('template-parts/particles-effect'); ?>
 
