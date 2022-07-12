@@ -1,0 +1,50 @@
+
+.skill-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    .skill-header {
+        font-family: $headerFont;
+        margin: 2rem 0;
+    }
+    .skill-wrapper {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        .skill {
+            width: 8rem;
+            margin: 1rem;
+            .skill-bar {
+                width: 100%;
+                height: 0.75rem;
+                border: 1px solid $blue;
+                border-radius: 10px;
+                position: relative;
+                &::before {
+                    content: '';
+                    width: var(--width);
+                    height: 100%;
+                    border-top-left-radius: 10px;
+                    border-bottom-left-radius: 10px;
+                    background: $blue;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    z-index: 1;
+                }
+            }
+        }
+    }
+
+    .skill-icon {
+        width: 3rem;
+    }
+}

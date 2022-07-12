@@ -31,9 +31,11 @@
         &:hover {
             & > span {
                 display: inline-block;
+                // color: $blue;
             }
             & > i {
                 color: red;
+                text-shadow: 0 0 2px red;
             }
         }
     }
