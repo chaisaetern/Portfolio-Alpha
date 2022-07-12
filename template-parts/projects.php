@@ -10,7 +10,7 @@
 <div class="project-container">
     <h2 class="project-header">Projects</h2>
     <div class="project-wrapper">
-
+        
         <a href="<?php the_field('project_link_1'); ?>" class="project">
             <img src="<?php the_field('project_bg_1'); ?>" alt="" class="project-bg">
             <h4 class="project-desc"><?php the_field('project_desc_1'); ?></h4>
