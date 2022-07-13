@@ -1,6 +1,6 @@
 
-const $id = ['#home', '#about', '#projects', '#contact'];
-const $class = ['.fp-wrapper-top', '.fp-about', '.project-container', '.contact-container'];
+const $id = ['#home', '#about', '#skills', '#projects', '#contact'];
+const $class = ['.fp-wrapper-top', '.fp-about', '.skill-container', '.project-container', '.contact-container'];
 
 
 $("#home").click(function() {

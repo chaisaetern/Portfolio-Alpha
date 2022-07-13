@@ -11,8 +11,10 @@
     width: 4rem;
     border-radius: 2px;
     z-index: 99;
+    // border-top: 5px solid gold;
+    // border-bottom: 5px solid gold;
+    border-left: 5px solid gold;
     & > a {
-        margin: 0.5rem 0;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -33,15 +35,12 @@
             border-bottom-right-radius: 5px;
             background: rgba(0,0,0,0.75);
             letter-spacing: 1px;
+            font-size: 1.25rem;
+            font-family: 'Rajdhani', sans-serif;
         }
         &:hover {
             & > span {
                 display: inline-block;
-                // color: $blue;
-            }
-            & > i {
-                color: white;
-                text-shadow: 0 0 2px white;
             }
         }
     }
