@@ -18,6 +18,11 @@ $("#projects").click(function() {
         scrollTop: $(".project-container").offset().top
     }, 1000);
 });
+$("#skills").click(function() {
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $(".skill-container").offset().top
+    }, 1000);
+});
 $("#contact").click(function() {
     $([document.documentElement, document.body]).animate({
         scrollTop: $(".contact-container").offset().top

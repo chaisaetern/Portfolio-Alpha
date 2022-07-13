@@ -9,15 +9,15 @@
 
 <?php get_header(); ?>
 
-<!-- Custom Top Page BG -->
-<?php get_template_part('template-parts/top-page-bg'); ?>
 
 <div class="fp-container">
-
+    
     <!-- Custom Navigation -->
     <?php get_template_part('template-parts/custom-navigation'); ?>
-
+    
     <div class="fp-wrapper-top">
+        <!-- Custom Top Page BG -->
+        <?php get_template_part('template-parts/top-page-bg'); ?>
 
         <div class="fp-text-container">
             <h2 id="hi">Hi.</h2> {
@@ -37,6 +37,9 @@
 
     <!-- About Section -->
     <?php get_template_part('template-parts/about-page'); ?>
+
+    <!-- Skills -->
+    <?php get_template_part('template-parts/skill-card'); ?>
 
     <!-- Projects -->
     <?php get_template_part('template-parts/projects'); ?>
