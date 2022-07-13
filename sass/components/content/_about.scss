@@ -83,6 +83,7 @@
                 bottom: 0;
                 color: #fff;
                 text-shadow: 0 0 2px #000;
+                z-index: 1;
                 .sq-news-link {
                     color: red !important;
                     transition: 0.25s !important;
@@ -94,8 +95,9 @@
             .about-img {
                 width: 100%;
                 height: auto;
-                border-radius: 10px;
-                filter: brightness(0.9);
+                border-radius: 2px;
+                filter: brightness(0.85);
+                box-shadow: 0 0 3px #000;
             }
         }
     }
