@@ -28,3 +28,5 @@ $("#contact").click(function() {
         scrollTop: $(".contact-container").offset().top
     }, 1000);
 });
+
+// $('html, body').animate({scrollTop: $('.contact-container').offset().top -100 }, 'slow');
