@@ -61,7 +61,7 @@
         .about-img-container {
             margin: 1rem;
             width: 500px;
-            height: 375px;
+            height: auto;
             z-index: 1;
             position: relative;
             display: flex;
@@ -79,6 +79,7 @@
                 background: rgba(0,0,0,0.75);
                 position: absolute;
                 bottom: 0;
+                left: 0;
                 color: #fff;
                 text-shadow: 0 0 2px #000;
                 z-index: 1;
@@ -99,5 +100,11 @@
                 box-shadow: 0 0 3px #000;
             }
         }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about-img {
+        
     }
 }

@@ -40,7 +40,7 @@
                     text-align: center;
                     background: #000;
                     border-radius: 2px;
-                    border-left: 5px solid $blue;
+                    border-left: 5px solid gold;
                     z-index: -1;
                 }
                 .socials-link {
@@ -48,12 +48,12 @@
                     justify-content: center;
                     align-items: center;
                     text-decoration: none;
-                    color: #fff;
+                    // color: gold;
                     .socials-icon {
                         padding: 0.5rem 0.5rem;
                         transition: 0.25s;
                         &:hover {
-                            color: $blue;
+                            color: gold;
                         }
                     }
                 }
