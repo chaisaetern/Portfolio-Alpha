@@ -8,3 +8,8 @@ ADD PICTURE FROM SQ NEWS
 ADD WORKING WITH STANFORD STUDENTS FOR ENTREPRENEURSHIP
 https://sanquentinnews.com/stanford-joins-with-sq-in-collaborative-engineering-project/
 
+
+***
+
+BTN TOGGLE FOR PARTICLES EFFECT
+LIGHT/DARK MODE

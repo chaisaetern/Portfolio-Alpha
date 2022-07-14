@@ -11,24 +11,22 @@
 // Questrial
 @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 
-
+// ==================================
 // CUSTOM FONTS
-@import url('http://fonts.cdnfonts.com/css/anurati');
+// ==================================
 
 
-@import url('http://fonts.cdnfonts.com/css/zidan');
-// $headerFont: 'Zidan', sans-serif;
-
-@import url('http://fonts.cdnfonts.com/css/brown-fox-2');
-// $headerFont: 'Brown Fox', sans-serif;
-
-@import url('http://fonts.cdnfonts.com/css/moto-verse');
+// @import url('http://fonts.cdnfonts.com/css/moto-verse');
+@font-face {
+    font-family: 'MOTO VERSE';
+    src: url('sass/components/content/MotoVerse-yw5LM.otf');
+}
 $headerFont: 'MOTO VERSE', sans-serif;
 
-@import url('http://fonts.cdnfonts.com/css/bad-habits');
 
-@import url('http://fonts.cdnfonts.com/css/manilla-queen');
-// font-family: 'Manilla Queen', sans-serif;
-
-@import url('http://fonts.cdnfonts.com/css/kindness-abstract');
+// @import url('http://fonts.cdnfonts.com/css/kindness-abstract');
 // font-family: 'Kindness Abstract', sans-serif;
+@font-face {
+    font-family: 'Kindness Abstract';
+    src: url('sass/components/content/Kindness Abstract.otf');
+}

@@ -50,11 +50,11 @@
     <!-- Contact Form -->
     <?php get_template_part('template-parts/contact-page'); ?>
     
-    
+    <!-- Custom Footer -->
     <?php get_template_part('template-parts/custom-footer'); ?>
 </div>
 
-
+<!-- Particles Effect -->
 <?php get_template_part('template-parts/particles-effect'); ?>
 
 <?php get_footer(); ?>

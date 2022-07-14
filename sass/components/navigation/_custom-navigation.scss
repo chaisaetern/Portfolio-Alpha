@@ -45,3 +45,25 @@
         }
     }
 }
+
+@media screen and (max-width: 768px) {
+    .fp-nav {
+        top: 0;
+        width: 100%;
+        flex-direction: row;
+        border-left: none;
+        border-top: 3px solid gold;
+        & > a {
+            margin: 1.25rem 2rem;
+            &:hover {
+                & > span {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+#wpadminbar {
+    display: none !important;
+}
