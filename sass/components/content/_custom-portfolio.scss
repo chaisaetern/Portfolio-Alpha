@@ -17,24 +17,22 @@ body {
 }
 
 // TOP PAGE BG & ABOUT BG
-.top-bg-1, .top-bg-2, 
-.about-bg-1, .about-bg-2 {
+.top-bg-1, 
+.about-bg-1 {
     position: absolute;
+    top: 0;
     mix-blend-mode: lighten;
     width: 60rem;
     filter: brightness(0.5);
-}
-
-.top-bg-1 {
-    top: 0;
-    // left: 0;
     animation: elevator 5s infinite;
 }
 
-.about-bg-1 {
-    top: 0;
-    // right: 0;
-    animation: elevator 5s infinite;
+.top-bg-2,
+.about-bg-2,
+.contact-bg-1 {
+    position: absolute;
+    mix-blend-mode: screen;
+    filter: brightness(0.15);
 }
 
 

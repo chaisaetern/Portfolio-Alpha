@@ -10,6 +10,10 @@
 <div class="contact-container">
     <h2>Contact Me</h2>
     <div class="contact-wrapper">
+
+        <!-- Custom Contact Page BG -->
+        <?php get_template_part('template-parts/contact-page-bg'); ?>
+
         <div class="contact-top">
             <div class="contact">    
                 <i class="fa-solid fa-envelope"></i>

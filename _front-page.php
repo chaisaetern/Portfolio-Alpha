@@ -22,10 +22,10 @@
 
         <div class="fp-text-container">
             <h2 id="hi"><?php the_field('fp_text_1'); ?></h2> {
-            <h3><?php the_field('fp_text_2'); ?></h3>
-            <h4><?php the_field('fp_text_3'); ?> <span><?php the_field('fp_text_4'); ?></span></h4>
-            <h5><?php the_field('fp_text_5'); ?></h5>
-            <h6><?php the_field('fp_text_6'); ?></h6>
+            <h3>< <?php the_field('fp_text_2'); ?> /></h3>
+            <h4>< <?php the_field('fp_text_3'); ?> <span><?php the_field('fp_text_4'); ?></span> /></h4>
+            <h5>< <?php the_field('fp_text_5'); ?> /></h5>
+            <h6>< <?php the_field('fp_text_6'); ?> /></h6>
             };
         </div>
 
