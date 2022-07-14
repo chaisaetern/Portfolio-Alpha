@@ -108,7 +108,14 @@ body {
                 height: auto;
                 position: absolute;
                 bottom: 2rem;
-                mix-blend-mode: difference;
+                mix-blend-mode: plus-lighter;
+            }
+            .socials-img {
+                width: 5rem;
+                position: absolute;
+                bottom: 0;
+                left: 2rem;
+                mix-blend-mode: plus-lighter;
             }
         }
     }

@@ -11,9 +11,7 @@
     
     <div class="socials">
 
-        <!-- <h3 class="socials-title">"Socials"</h3> -->
-
-        <div class="socials-icon-wrapper">
+        <div class="socials-wrapper">
 
             <?php
                 $links = array(

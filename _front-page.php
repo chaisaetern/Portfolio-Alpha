@@ -17,7 +17,7 @@
     
     <div class="fp-wrapper-top">
         <h1 class="fp-site-branding"><?php the_field('custom_site_title'); ?></h1>
-        
+
         <!-- Custom Top Page BG -->
         <?php get_template_part('template-parts/top-page-bg'); ?>
 
@@ -32,6 +32,7 @@
 
         <div class="fp-img-container">
             <img src="<?php the_field('portfolio_image'); ?>" alt="" class="fp-img">
+            <img src="<?php the_field('socials_img'); ?>" alt="" class="socials-img">
             <?php get_template_part('template-parts/socials'); ?>
         </div>
 
