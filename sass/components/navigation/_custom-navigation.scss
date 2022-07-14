@@ -1,7 +1,7 @@
 
 .fp-nav {
     position: fixed;
-    top: 50vh;
+    top: 0;
     left: -2px;
     display: flex;
     flex-direction: column;
@@ -11,9 +11,13 @@
     width: 4rem;
     border-radius: 2px;
     z-index: 99;
-    // border-top: 5px solid gold;
-    // border-bottom: 5px solid gold;
     border-left: 5px solid gold;
+    .fp-site-branding {
+        font-family: 'Kindness Abstract', sans-serif;
+        margin: 0.5rem;
+        color: red;
+        text-align: center;
+    }
     & > a {
         display: flex;
         flex-direction: row;
@@ -53,8 +57,13 @@
         flex-direction: row;
         border-left: none;
         border-top: 3px solid gold;
+        .fp-site-branding {
+            margin: 0.5rem 0.5rem 0.5rem 0;
+            font-size: 1rem;
+            transform: rotate(0deg);
+        }
         & > a {
-            margin: 1.25rem 2rem;
+            margin: 1rem;
             &:hover {
                 & > span {
                     display: none;

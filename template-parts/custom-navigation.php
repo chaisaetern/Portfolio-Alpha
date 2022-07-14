@@ -5,8 +5,8 @@
 
 <div class="fp-nav">
 
-    <div class="port-header">
-        
+    <div class="portfolio-header">
+        <h1 class="fp-site-branding"><?php the_field('custom_site_title'); ?></h1>
     </div>
 
     <?php 
