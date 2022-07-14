@@ -10,31 +10,26 @@
 <div class="project-container">
     <h2 class="project-header">Projects</h2>
     <div class="project-wrapper">
+
+    <?php 
+        $projects = array(
+            array('link' => get_field('project_link_1'), 'bg' => get_field('project_bg_1'), 'desc' => get_field('project_desc_1'), 'title' => get_field('project_title_1')),
+            array('link' => get_field('project_link_2'), 'bg' => get_field('project_bg_2'), 'desc' => get_field('project_desc_2'), 'title' => get_field('project_title_2')),
+            array('link' => get_field('project_link_3'), 'bg' => get_field('project_bg_3'), 'desc' => get_field('project_desc_3'), 'title' => get_field('project_title_3')),
+            array('link' => get_field('project_link_4'), 'bg' => get_field('project_bg_4'), 'desc' => get_field('project_desc_4'), 'title' => get_field('project_title_4')),
+        );
+
+        for($i = 0; $i < count($projects); $i++) {
+    ?>
         
-        <a href="<?php the_field('project_link_1'); ?>" class="project">
-            <img src="<?php the_field('project_bg_1'); ?>" alt="" class="project-bg">
+        <a href="<?php echo $projects[$i]['link']; ?>" class="project">
+            <img src="<?php echo $projects[$i]['bg']; ?>" alt="" class="project-bg">
             <h4 class="project-visit">Visit</h4>
-            <h4 class="project-desc"><?php the_field('project_desc_1'); ?></h4>
-            <h3 class="project-title"><?php the_field('project_title_1'); ?></h3>
+            <h4 class="project-desc"><?php echo $projects[$i]['desc']; ?></h4>
+            <h3 class="project-title"><?php echo $projects[$i]['title']; ?></h3>
         </a>
-        <a href="<?php the_field('project_link_3'); ?>" class="project">
-            <img src="<?php the_field('project_bg_3'); ?>" alt="" class="project-bg">
-            <h4 class="project-visit">Visit</h4>
-            <h4 class="project-desc"><?php the_field('project_desc_3'); ?></h4>
-            <h3 class="project-title"><?php the_field('project_title_3'); ?></h3>
-        </a>
-        <a href="<?php the_field('project_link_2'); ?>" class="project">
-            <img src="<?php the_field('project_bg_2'); ?>" alt="" class="project-bg">
-            <h4 class="project-visit">Visit</h4>
-            <h4 class="project-desc"><?php the_field('project_desc_2'); ?></h4>
-            <h3 class="project-title"><?php the_field('project_title_2'); ?></h3>
-        </a>
-        <a href="<?php the_field('project_link_4'); ?>" class="project">
-            <img src="<?php the_field('project_bg_4'); ?>" alt="" class="project-bg">
-            <h4 class="project-visit">Visit</h4>
-            <h4 class="project-desc"><?php the_field('project_desc_4'); ?></h4>
-            <h3 class="project-title"><?php the_field('project_title_4'); ?></h3>
-        </a>
+
+        <?php } ?>
 
     </div>
 </div>

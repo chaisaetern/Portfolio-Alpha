@@ -68,11 +68,12 @@ body {
         flex-wrap: wrap;
         position: relative;
         .fp-site-branding {
-            font-family: 'BAD HABITS', sans-serif;
+            // font-family: 'BAD HABITS', sans-serif;
+            font-family: 'Kindness Abstract', sans-serif;
             position: absolute;
             top: 0;
             left: 0;
-            margin: 1rem;
+            margin: 0.5rem 0 0 1rem;
             color: gold;
         }
         .fp-text-container {

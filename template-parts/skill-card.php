@@ -26,6 +26,7 @@
             array('lang' => 'PHP/WordPress', 'effc' => '53%', 'icon' => 'https://cdn-icons-png.flaticon.com/512/174/174881.png'),
             array('lang' => 'Still Learning', 'effc' => '100%', 'hours' => 'Lifetime', 'icon' => 'https://cdn-icons-png.flaticon.com/512/4616/4616734.png'),
         );
+        
         for($i = 0; $i < count($skills); $i++) {
         ?>
     

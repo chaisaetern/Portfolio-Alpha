@@ -13,17 +13,17 @@
         <div class="contact-top">
             <div class="contact">    
                 <i class="fa-solid fa-envelope"></i>
-                <a href="#"><?php the_field('social_link_4'); ?>csaetern@alphaworks.tech</a>
+                <a href="#"><?php the_field('social_link_4'); ?><?php the_field('contact_link_text_1'); ?></a>
             </div>
         </div>
         <div class="contact-bottom">
             <div class="contact">    
                 <i class="fa-brands fa-github"></i>
-                <a href="<?php the_field('social_link_3'); ?>">github/chaisaetern</a>
+                <a href="<?php the_field('social_link_3'); ?>"><?php the_field('contact_link_text_2'); ?></a>
             </div>
             <div class="contact">    
                 <i class="fa-brands fa-linkedin-in"></i>
-                <a href="<?php the_field('social_link_2'); ?>">linkedin/in/csaetern530</a>
+                <a href="<?php the_field('social_link_2'); ?>"><?php the_field('contact_link_text_3'); ?></a>
             </div>
         </div>
     </div>

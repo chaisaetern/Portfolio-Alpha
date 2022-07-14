@@ -9,6 +9,8 @@
 
 <footer class="custom-footer">
     <p>
-        &copy; 2022 <span>Chai Saetern</span> - Portfolio Design by Chai S.
+        &copy; 2022 
+        <span><?php the_field('custom_footer_signature'); ?></span> 
+        <?php the_field('custom_footer_text'); ?>
     </p>
 </footer>
