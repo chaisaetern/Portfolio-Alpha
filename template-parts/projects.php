@@ -24,7 +24,7 @@
         
         <a href="<?php echo $projects[$i]['link']; ?>" class="project">
             <img src="<?php echo $projects[$i]['bg']; ?>" alt="" class="project-bg">
-            <h4 class="project-visit">Visit</h4>
+            <h4 class="project-visit">View</h4>
             <h4 class="project-desc"><?php echo $projects[$i]['desc']; ?></h4>
             <h3 class="project-title"><?php echo $projects[$i]['title']; ?></h3>
         </a>
