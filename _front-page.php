@@ -9,7 +9,6 @@
 
 <?php get_header(); ?>
 
-
 <div class="fp-container">
     
     <!-- Custom Navigation -->

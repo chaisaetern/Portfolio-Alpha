@@ -7,7 +7,6 @@
  */
 ?>
 
-
 <div class="skill-container">
 
     <h4 class="skill-header">Skills</h4>
@@ -32,7 +31,7 @@
     
     <div class="skill" style="--width: <?php echo $skills[$i]['effc']; ?>">
         
-        <div class="skill-text"> 
+        <div class="skill-text">
             
             <div class="skill-icon-container">
                 <img src="<?php echo $skills[$i]['icon']; ?>" alt="skill" class="skill-icon">

@@ -15,16 +15,20 @@
 
             <?php
                 $links = array(
-                    array('name' => 'Codepen', 'class' => 'fa-codepen', 
+                    array('name' => 'Codepen', 
+                    'class' => 'fa-codepen', 
                     'link' => get_field('social_link_1')
                     ),
-                    array('name' => 'Linked In', 'class' => 'fa-linkedin-in', 
+                    array('name' => 'Linked In', 
+                    'class' => 'fa-linkedin-in', 
                     'link' => get_field('social_link_2')
                     ),
-                    array('name' => 'Github', 'class' => 'fa-github', 
+                    array('name' => 'Github', 
+                    'class' => 'fa-github', 
                     'link' => get_field('social_link_3')
                     ),
-                    array('name' => 'csaetern@alphaworks.tech', 'class' => 'fa-solid fa-envelope', 
+                    array('name' => 'csaetern@alphaworks.tech', 
+                    'class' => 'fa-solid fa-envelope', 
                     'link' => get_field('social_link_4')
                     ),
                 );
