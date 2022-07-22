@@ -2,6 +2,16 @@
 --------------------------------------------- */
 @import "content/colors";
 @import "content/fonts";
+@import "content/custom-portfolio";
+@import "content/particle-effects";
+// @import "content/skill-card";
+@import "content/skill-card-2";
+@import "content/about";
+@import "content/socials";
+@import "content/projects";
+@import "content/contact";
+@import "content/404";
+@import "navigation/custom-footer";
 
 /* Navigation
 --------------------------------------------- */
@@ -35,12 +45,3 @@
 
 /* Custom
 --------------------------------------------- */
-@import "content/custom-portfolio";
-@import "content/particle-effects";
-// @import "content/skill-card";
-@import "content/skill-card-2";
-@import "content/about";
-@import "content/socials";
-@import "content/projects";
-@import "content/contact";
-@import "navigation/custom-footer";

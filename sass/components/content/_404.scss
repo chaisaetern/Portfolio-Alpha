@@ -1,0 +1,19 @@
+
+
+.error-404.not-found {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    .back-home-btn {
+        color: gold !important;
+        position: relative;
+        top: 2rem;
+        transition: 0.25s;
+    }
+    .page-content {
+        display: none;
+    }
+}

@@ -15,6 +15,7 @@ get_header();
 		<section class="error-404 not-found">
 			<header class="page-header">
 				<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'portfolio' ); ?></h1>
+				<a href="/" class="back-home-btn"><i class="fa-solid fa-arrow-left"> Go Back</i></a>
 			</header><!-- .page-header -->
 
 			<div class="page-content">
@@ -53,7 +54,7 @@ get_header();
 
 			</div><!-- .page-content -->
 		</section><!-- .error-404 -->
-
+		
 	</main><!-- #main -->
 
 <?php
