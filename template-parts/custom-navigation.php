@@ -5,10 +5,6 @@
 
 <div class="fp-nav">
 
-    <div class="portfolio-header">
-        <h1 class="fp-site-branding"><?php the_field('custom_site_title'); ?></h1>
-    </div>
-
     <?php 
         $links = array(
             array('name' => 'Home', 'id' => 'home', 'href' => '#', 'iconClass' => 'fa-solid fa-house-user'),
