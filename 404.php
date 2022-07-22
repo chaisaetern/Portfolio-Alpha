@@ -14,6 +14,7 @@ get_header();
 
 		<section class="error-404 not-found">
 			<header class="page-header">
+				<img src="https://r4.wallpaperflare.com/wallpaper/164/134/472/photography-black-man-hat-white-shirt-red-tie-dark-background-wallpaper-e3fa335a18f52c3d48f25eb311a8d201.jpg" alt="" class="not-found-img">
 				<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'portfolio' ); ?></h1>
 				<a href="/" class="back-home-btn"><i class="fa-solid fa-arrow-left"> Go Back</i></a>
 			</header><!-- .page-header -->

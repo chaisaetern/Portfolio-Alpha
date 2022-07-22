@@ -78,11 +78,11 @@ body {
             position: relative;
             top: 2.5rem;
             & > h2, & > h4, > h6 {
-                color: gold;
+                color: $blue;
                 margin: 0.25rem 0;
             }
             #hi {
-                color: gold;
+                color: $blue;
                 font-family: $headerFont;
                 font-size: 2rem;
                 position: relative;

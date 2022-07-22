@@ -7,6 +7,13 @@
     width: 100%;
     height: 100vh;
     overflow: hidden;
+    text-align: center;
+    .not-found-img {
+        width: 550px;
+        height: 350px;
+        mix-blend-mode: lighten;
+        // filter: brightness(0.85);
+    }
     .back-home-btn {
         color: gold !important;
         position: relative;
