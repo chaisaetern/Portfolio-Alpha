@@ -21,9 +21,9 @@
         & > i {
             transform: scale(1.25);
             transition: 0.25s;
-            color: $blue;
+            color: #fff;
             &:hover {
-                color: $white;
+                color: $blue;
             }
         }
         & > span {
