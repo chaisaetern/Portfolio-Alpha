@@ -16,7 +16,9 @@
         <div class="about-me">
             <h2 class="about-title">About Me</h2>
             <h4><?php the_field('about_desc_1'); ?></h4>
-            <h4><?php the_field('about_desc_2'); ?></h4>
+            <h4><?php the_field('about_desc_2'); ?>
+                [<a class="tlm-link" href="<?php the_field('tlm_link'); ?>">The Last Mile</a>]
+            </h4>
             <h4><?php the_field('about_desc_3'); ?></h4>
             <h4><?php the_field('about_desc_4'); ?></h4>
             <h4><?php the_field('about_desc_5'); ?></h4>
