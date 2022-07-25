@@ -20,11 +20,11 @@
         margin: 1rem 0;
         & > i {
             transform: scale(1.25);
-            transition: 0.25s;
-            color: #fff;
-            &:hover {
-                color: $blue;
-            }
+            // transition: 0.25s;
+            // color: #fff;
+            // &:hover {
+            //     color: $blue;
+            // }
         }
         & > span {
             display: none;
